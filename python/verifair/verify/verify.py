@@ -1,5 +1,9 @@
 import numpy as np
-from ..util.log import *
+import sys
+sys.path.append("..") # Adds higher directory to python modules path.
+
+from util.log import *
+
 
 # Returns the (epsilon, delta) values of the adaptive concentration inequality
 # for the given parameters.
